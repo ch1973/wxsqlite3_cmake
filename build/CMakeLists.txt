@@ -259,7 +259,6 @@ set_target_properties(wxsqlite3 PROPERTIES COMPILE_FLAGS "-D_LIB \
                                                           -DSQLITE_ENABLE_REGEXP=1 \
                                                           -DSQLITE_TEMP_STORE=2 \
                                                           -DSQLITE_USE_URI=1 \
-                                                          -DSQLITE_USER_AUTHENTICATION=1 \
                                                           -DCODEC_TYPE=CODEC_TYPE_${SQLITE_CODEC_TYPE} \
                                                           ${SQLITE_DEBUG_MACRO}")
 
